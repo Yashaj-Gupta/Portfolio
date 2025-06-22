@@ -2,7 +2,7 @@
 #define WIDGET_H
 
 #include <QWidget>
-
+#include <QTextEdit>
 QT_BEGIN_NAMESPACE
 namespace Ui {
 class Widget;
@@ -16,8 +16,10 @@ class Widget : public QWidget
 public:
     Widget(QWidget *parent = nullptr);
     ~Widget();
-
+private slots:
+    void changeFont();
 private:
     Ui::Widget *ui;
+    QTextEdit *Text;
 };
 #endif // WIDGET_H
