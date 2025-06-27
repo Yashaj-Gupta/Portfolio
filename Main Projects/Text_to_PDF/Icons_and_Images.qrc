@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Resources/pencil-clipart-pencil.png</file>
+        <file>Resources/document.png</file>
+        <file>Resources/Untitled.png</file>
+        <file>Resources/color-wheel.png</file>
+        <file>Resources/Bold.png</file>
+    </qresource>
+</RCC>

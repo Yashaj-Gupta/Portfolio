@@ -30,8 +30,6 @@ Widget::Widget(QWidget *parent)
 Widget::~Widget()
 {
     delete ui;
-
-
 }
 
 void Widget::setInfo()
